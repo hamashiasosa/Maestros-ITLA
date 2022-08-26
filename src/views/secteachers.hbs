@@ -1,0 +1,62 @@
+<div>
+    <div class="container-xxl">
+
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <!-- Logo start -->
+            <a href="/home" class="flex">
+                <img class="flex" src="/images/developer.png" witdth="229" heigth="68" alt="Maestros ITLA">
+                </a>
+                <!-- Logo ends -->
+                
+                <h3 class="float">Maestros ITLA</h3>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="/home" class="nav-link px-2 link-secondary">Home</a></li>
+              
+                <li><a href="/about_us" class="nav-link px-2 link-secondary">About</a></li>
+                <!-- Search Bar start -->
+                <form method="POST" action="/search">
+                    <input class="search-bar form-Control" type="search" name="sersacTerm" placeholder="Search"
+                        aria-label="search">
+                    <!-- Search Bar ends -->
+                </form>
+            </ul>
+        </header>
+        <main>
+
+            <section class="pd text-center container">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-light">CyberSecurity's Teachers</h1>
+                        <p class="lead-text-center">Select your Teacher</p>
+            </section>
+
+            <div class="album py-5 bg-light">
+                <div class="container">
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        {{#each teachers}}
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                    <p class="card-text"> {{this.title}}
+                                    <p class="card-text-2">{{this.description}}
+                                    </p>
+
+
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group"> </div>
+                                         <img class ="star" src="images/star.png">
+                                            <small class="text-muted1">{{this.rate}}</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </main>

@@ -4,15 +4,15 @@ import exphbs  from "express-handlebars";
 import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 
-import { connectDB } from "./src/database/database.js";
-import indexRoutes   from "./src/routes/credentials.routers.js";
+import { connectDB } from "./database/database.js";
+import indexRoutes   from "./routes/credentials.routers.js";
 
 const app = express();
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // Settings
-app.set("views", join(__dirname, "src/views"));
+app.set("views", join(__dirname, "views"));
 
 // Configuring view engine
 const hbs = exphbs.create({
@@ -24,7 +24,7 @@ app.engine(".hbs", hbs.engine);
 app.set("view engine", ".hbs");
 
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static(join(__dirname, "src/public")));
+app.use(express.static(join(__dirname, "public")));
 app.use(indexRoutes);
 
 // Running the server...

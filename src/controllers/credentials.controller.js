@@ -13,8 +13,9 @@ export const createUser = async (req, res) => {
   await newUser.save();
 
   console.log("~ Saved user " + req.body.username);
-  res.sendStatus(200);
+  res.redirect("/home");
 };
+
 
 export const performLogin = async (req, res) => {
   console.log("~ Try to authenticate with credentials");
@@ -25,7 +26,7 @@ export const performLogin = async (req, res) => {
 
   if (userFound) {
     console.log("~ >> " + userFound);
-    res.sendStatus(200);
+    res.redirect("/home");
   } else {
     console.log("~ << None");
     res.sendStatus(404);
