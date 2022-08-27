@@ -54,7 +54,7 @@ Finalmente que hemos llegado a la ultima seccion de la paginan, el "about us" do
 
 Mostrando imagen:
 
-![image](https://user-images.githubusercontent.com/107286049/186798922-becdb940-a8e0-468a-b188-08a833f8ae19.png)
+![image](https://user-images.githubusercontent.com/107286049/187048049-d3610234-431f-437a-a2f3-945cff221313.png)
 
 Luego de haber detallado seccion por seccion nuestro proyecto espero que haya sido del agrado del maestro y aquien pueda interesar, de modo que pueda cumplir con los requerimeintos impuestos a la hora de calificar este proyecto.
 
