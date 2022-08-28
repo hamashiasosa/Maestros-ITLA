@@ -2,11 +2,11 @@
  
  Nombre del proyecto: Maestros ITLA
  
- Creador/es: Hamashia Sosa Reyes, John Enmanuel Guzman Baez
+ Creador/es: Hamashia Sosa Reyes, John Enmanuel Guzman Baez y Felibell Brazoban López
  
  Seccion: 8
  
- Matricula: 2021-2128, 2021-2378
+ Matricula: 2021-2128, 2021-2378, 2021-2308
  
  Lenguajes utilizados: HTML, CSS, JavaScript.
  
