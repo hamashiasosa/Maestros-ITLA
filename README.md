@@ -54,13 +54,14 @@ Finalmente que hemos llegado a la ultima seccion de la paginan, el "about us" do
 
 Mostrando imagen:
 
-![image](https://user-images.githubusercontent.com/107286049/187048049-d3610234-431f-437a-a2f3-945cff221313.png)
+![image](https://user-images.githubusercontent.com/107286049/187056403-9a43b038-72de-4d94-974f-00e3b025358d.png)
 
 Luego de haber detallado seccion por seccion nuestro proyecto espero que haya sido del agrado del maestro y aquien pueda interesar, de modo que pueda cumplir con los requerimeintos impuestos a la hora de calificar este proyecto.
 
 Es cuanto, muchas gracias.
 
 Nota-1: No se si habia que detallar el codigo, en si pero trate de documentarlo en si mismo de modo que sea bien entendible.
+
 Nota-2: Ya no se si realmente amo u odio la programacion pero aqui esta el proyecto
 
 
