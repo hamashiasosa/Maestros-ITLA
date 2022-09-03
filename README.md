@@ -2,11 +2,11 @@
  
  Nombre del proyecto: Maestros ITLA
  
- Creador/es: Hamashia Sosa Reyes, John Enmanuel Guzman Baez y Felibell Brazoban López
+ Creador/es: Hamashia Sosa Reyes
  
  Seccion: 8
  
- Matricula: 2021-2128, 2021-2378, 2021-2308
+ Matricula: 2021-2128
  
  Lenguajes utilizados: HTML, CSS, JavaScript.
  
@@ -51,10 +51,6 @@ Mostrando imagenes:
 ![image](https://user-images.githubusercontent.com/107286049/186797971-10d2613e-a651-48a2-acfe-b014ff0c7218.png)
 
 Finalmente que hemos llegado a la ultima seccion de la paginan, el "about us" donde cuenta un poco sobre la razon de la creacion del sitio web y una palabras motivacionales al quien pueda interesar.
-
-Mostrando imagen:
-
-![image](https://user-images.githubusercontent.com/107286049/187056403-9a43b038-72de-4d94-974f-00e3b025358d.png)
 
 Luego de haber detallado seccion por seccion nuestro proyecto espero que haya sido del agrado del maestro y aquien pueda interesar, de modo que pueda cumplir con los requerimeintos impuestos a la hora de calificar este proyecto.
 
